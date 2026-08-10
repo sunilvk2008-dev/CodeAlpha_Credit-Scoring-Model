@@ -5,8 +5,10 @@
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-1.2+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Live Web App](https://img.shields.io/badge/Live_Web_App-Open_Interface-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://codelpha-credit-scoring-model-a8rztdh4s-sunil-c733.vercel.app/)
 
-> **Repository URL**: [https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model](https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model)
+> 🌐 **Live Web Application**: [https://codelpha-credit-scoring-model-a8rztdh4s-sunil-c733.vercel.app/](https://codelpha-credit-scoring-model-a8rztdh4s-sunil-c733.vercel.app/)  
+> 📦 **Repository URL**: [https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model](https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model)
 
 CrediPulse AI is an enterprise-grade automated **Credit Scoring & Default Risk Assessment System** powered by Supervised Machine Learning (FastAPI Backend) and an interactive web interface (React + Vite).
 
