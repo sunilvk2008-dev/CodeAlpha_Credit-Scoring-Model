@@ -1,0 +1,21 @@
+{
+  "name": "codealpha-credit-scoring-model",
+  "version": "1.0.0",
+  "description": "Enterprise AI Credit Scoring & Risk Analytics Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "api": "python -m uvicorn app.main:app --reload --port 8000"
+  },
+  "keywords": [
+    "credit-scoring",
+    "fintech",
+    "risk-analytics",
+    "fastapi",
+    "react",
+    "machine-learning"
+  ],
+  "author": "CodeAlpha",
+  "license": "MIT"
+}
