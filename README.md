@@ -5,7 +5,6 @@
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-1.2+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Vercel Ready](https://img.shields.io/badge/Vercel-Deployment_Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 > **Repository URL**: [https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model](https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model)
 
@@ -23,7 +22,6 @@ The system evaluates applicant financial parameters—including income, debt-to-
 - **🔮 Benchmark Applicant Presets**: One-click quick-fill profiles for *Prime Executive*, *Young Professional*, *Over-Leveraged Borrower*, and *Default History Applicant*.
 - **📜 Evaluation Audit Trail**: Session history log with one-click **CSV Export** for audit compliance records.
 - **🛡️ Dual Execution Mode**: Seamless connection to the **FastAPI Backend** (`/api/predict`) with automatic failover to the client-side calibrated ML engine if offline.
-- **☁️ Vercel Serverless Ready**: Native integration with Vercel Serverless Python functions and Vite static builds (`vercel.json` + `api/index.py`).
 
 ---
 
@@ -62,8 +60,6 @@ CodeAlpha_Credit-Scoring-Model/
 │   ├── preprocessing.py        # Scaler & Dataset Pipeline
 │   ├── routes.py               # REST API Router (/api/predict, /api/metrics)
 │   └── schemas.py              # Pydantic Input/Output Schemas
-├── api/                        # Vercel Serverless Function Entry Point
-│   └── index.py                # Serverless Export for Vercel Python Runtime
 ├── dataset/                    # Training Dataset
 │   └── credit_data.csv         # Credit Applicant Financial Dataset
 ├── frontend/                   # React + Vite Web Application
@@ -82,8 +78,7 @@ CodeAlpha_Credit-Scoring-Model/
 │   └── evaluate.py             # Model Validation & Metrics Script
 ├── START_APP.bat               # Windows 1-Click Auto Launcher
 ├── OPEN_APP.html               # Direct Web Redirect Launcher
-├── vercel.json                 # Vercel Multi-Build Deployment Rules
-├── requirements.txt            # Python Dependencies for Vercel Runtime
+├── requirements.txt            # Python Dependencies
 └── README.md                   # Project Documentation
 ```
 
@@ -92,7 +87,7 @@ CodeAlpha_Credit-Scoring-Model/
 ## 🚀 Quick Start Guide
 
 ### Option 1: 1-Click Launcher (Windows)
-Double-click [`START_APP.bat`](file:///D:/project%20ML/CodeAlpha_Credit-Scoring-Model/START_APP.bat) in the project directory. It will automatically:
+Double-click [`START_APP.bat`](file:///C:/Users/sunil/CodeAlpha_Credit-Scoring-Model/START_APP.bat) in the project directory. It will automatically:
 1. Start the FastAPI backend on port `8000`.
 2. Start the React Vite frontend on port `5173`.
 3. Open your browser to [http://localhost:5173/](http://localhost:5173/).
@@ -153,20 +148,6 @@ Returns machine learning validation metrics (*Accuracy, Precision, Recall, F1, R
 
 ### `GET /api/model-info`
 Returns current active model architecture and feature specifications.
-
----
-
-## ☁️ Deployment Guide
-
-### Hosting on Vercel
-
-This repository is pre-configured for seamless **Vercel Serverless Deployment**:
-
-1. Log in to **[Vercel](https://vercel.com/new)** with GitHub.
-2. Select **`sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model`** and click **Import**.
-3. Click **Deploy**.
-
-Vercel reads [`vercel.json`](file:///D:/project%20ML/CodeAlpha_Credit-Scoring-Model/vercel.json) to deploy both the React Vite frontend and Python serverless API functions automatically!
 
 ---
 
