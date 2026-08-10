@@ -2,11 +2,26 @@
   "name": "codealpha-credit-scoring-model",
   "version": "1.0.0",
   "description": "Enterprise AI Credit Scoring & Risk Analytics Platform",
+  "private": true,
   "scripts": {
     "dev": "npm run dev --prefix frontend",
+    "postinstall": "npm install --prefix frontend",
     "build": "npm run build --prefix frontend",
     "preview": "npm run preview --prefix frontend",
     "api": "python -m uvicorn app.main:app --reload --port 8000"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.31.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "oxlint": "^1.75.0",
+    "vite": "^8.2.0"
   },
   "keywords": [
     "credit-scoring",
