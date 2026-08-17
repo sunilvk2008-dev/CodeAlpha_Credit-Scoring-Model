@@ -5,7 +5,7 @@
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-1.2+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Live Web App]{https://codelpha-credit-scoring-model-a8rztdh4s-sunil-c733.vercel.app/}
+[![Live Web App]{https://codealpha-credit-scoring-model-black.vercel.app}
 
 > 🌐 **Live Web Application**: [https://codealpha-credit-scoring-model-black.vercel.app](https://codealpha-credit-scoring-model-black.vercel.app)  
 > 📦 **Repository URL**: [https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model](https://github.com/sunilvk2008-dev/CodeAlpha_Credit-Scoring-Model)
